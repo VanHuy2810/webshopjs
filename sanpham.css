@@ -1,0 +1,196 @@
+
+article{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+/* cách 1 */
+article .noidung img{
+    width: 100%;
+    margin-top: 1%;
+   
+}
+article .noidung .ao{
+    width: 80%;
+    margin: auto;
+    background-color: #e4e4e4;
+    border-radius: 10px;
+}
+article .noidung .ao ul {
+    display: inline-flex;
+    width: 100%; 
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    list-style: none;
+}
+article .noidung .ao img{
+    width: 90%;
+}
+article .noidung .ao a:hover img{
+    box-shadow: 2px 2px 5px rgb(29, 4, 4);
+}
+article .noidung .ao ul a{
+    text-decoration: none;
+}
+article .noidung .ao ul a p{
+    color: black;
+    font-weight: 600;
+}
+article .noidung .ao ul a:hover p{
+    width: 90%;
+    margin: auto;
+    color: red;
+}
+article .ao h1{
+    border: 2px rgb(255, 255, 255) solid;
+    width: 15%;
+    text-align: center;
+    border-radius: 10px;  
+    margin: 0 1% 1% 1%;  
+}
+.ao a  {
+    text-decoration: none;
+    color: black;
+}
+/* -------------------- */
+article .noidung .quan{
+    width: 80%;
+    margin: auto;
+    background-color: #e4e4e4;
+    
+    border-radius: 10px;
+}
+article .noidung .quan ul {
+    display: inline-flex;
+    width: 100%; 
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    list-style: none;
+}
+article .noidung .quan img{
+    width: 90%;
+}
+article .noidung .quan a:hover img{
+box-shadow:  2px 2px 5px rgb(29, 4, 4) ;
+}
+article .noidung .quan ul a{
+    text-decoration: none;
+}
+article .noidung .quan ul a p{
+    color: black;
+    font-weight: 600;
+}
+article .noidung .quan ul a:hover p{
+    color: red;
+    width: 90%;
+    margin: auto;
+}
+article .quan h1{
+    border: 2px rgb(255, 255, 255) solid;
+    width: 15%;
+    text-align: center;
+    border-radius: 10px;  
+    margin: 0 1% 1% 1%;  
+}
+.quan a {
+    text-decoration: none;
+    color: black;
+   
+}
+/* cách 2 */
+article .phukien{
+    width: 80%;
+    background-color: #e4e4e4;
+    margin: auto;
+    border-radius: 10px;
+}
+article .phukien h1{
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 10px;
+    width: 15%;
+    text-align: center;
+    margin-left: 1%;
+}
+.phukien .vong {
+    width: 98%;
+    height: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.phukien .vong .vong1 {
+    width:19%;
+    height: 100%;
+}
+.phukien h1{
+    border: 2px white solid;
+    border-radius: 10px;
+    margin: 0 1% 1% 1%;
+}
+.phukien a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.phukien .vong .vong1 a p{
+    text-decoration: none;  
+    color: black;
+    font-weight: 600;
+}
+.phukien .vong .vong1 a:hover p{
+    color: red;
+}
+.phukien .vong .vong1 a:hover img{
+    box-shadow: 2px 2px 5px rgb(4, 1, 1);
+}
+/* ============================== */
+article .giay {
+    background-color: #e4e4e4;
+    width: 80%;
+    border-radius: 10px;
+    margin: auto;
+}
+.giay .giaydep .giay1 {
+    width: 19%;
+    height: 100%;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+.giay .giaydep{
+    width: 100%;
+    display: inline-flex;
+    height: auto;
+    
+}
+.giay a h1{
+    border: 2px white solid;
+    border-radius: 10px;
+    width: 15%;
+    text-align: center;
+    margin-left: 1%;
+}
+.giay a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.giay a p{
+    font-weight: 600;
+}
+.giay a:hover p{
+    color: red;
+}
+.giay a:hover img{
+    box-shadow: 2px 2px 5px rgb(29, 4, 4);
+}
+
+
+
+
+
+
+
+

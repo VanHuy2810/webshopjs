@@ -1,0 +1,46 @@
+
+article{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    font-family: MyFont;
+}
+article .noidung img{
+    width: 100%;
+    margin-top: 1%;
+}
+article .noidung .giay {
+    width: 80%;
+    margin: auto;
+    
+}
+.noidung .giay .giaydep .giay1 {
+    width: 19%;
+    height: 100%;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+.noidung .giay .giaydep{
+    width: 100%;
+    display: inline-flex;
+    height: auto;
+    margin-bottom: 2%;
+}
+.noidung .giay a h1{
+    border: 2px white solid;
+    border-radius: 10px;
+    width: 15%;
+    text-align: center;
+}
+.noidung .giay a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+.noidung .giay a:hover p{
+    color: red;
+}
+article .noidung a:hover img{
+ box-shadow: 2px 2px 5px rgb(0, 0, 1);
+}

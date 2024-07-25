@@ -1,0 +1,104 @@
+
+article {
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+}
+article .bia img{
+    width: 100%;
+}
+
+article .aophong1 {
+    width: 80%;
+    margin:auto;
+    background-color:#e4e4e4;
+    border: 2px white solid;
+    border-radius: 10px ;
+}
+
+article .aophong1 ul {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;/*chia đều kích thước trong lớp aophong1*/
+    align-items:center ;
+    margin-top: 10px;
+    margin-left: 1%;
+}
+article .aophong1 img{
+    height: 100%;
+    width: 90%; 
+}
+article .aophong1 a p{
+    color: black;
+    display: block;
+    text-align: center;
+    margin-left: 1%;
+    width: 92%;/*độ dài của thẻ a*/
+}
+article .aophong1 a{
+    text-decoration: none;/*xóa dấu gạch ngang dưới chân thẻ a*/
+    font-size: 16px;
+    font-weight: 600;
+}
+
+article .aophong1 a:hover p{  
+    color: red ;
+}
+article .aophong1 a:hover img{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+.aophong1 ul li{
+    list-style: none;
+}
+article .quan1 {
+    width: 80%;
+    margin: auto;
+    background-color:  #e4e4e4;;
+    border: 2px white solid;
+    border-radius: 10px;
+}
+.quan1 ul{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 1%;
+}
+.quan1 img{
+    height: 100%;
+    width: 90%;
+}
+.quan1 ul li a:hover p {
+    color: red;
+}
+.quan1 ul li a:hover img{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.quan1 ul li a p {
+    color: black;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 1%;
+    width: 92%;
+}
+.quan1 a{  
+    text-decoration: none; /*lm mat dau gạch ngang */
+}
+.quan1 ul li{
+    list-style: none;
+}
+h1{
+    width: 20%;
+    text-align: center;
+}
+article .sale {
+    width: 100%;
+}
+ .sale img{
+    width: 80%;
+    margin-left: 10%;
+   
+}

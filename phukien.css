@@ -1,0 +1,53 @@
+
+article{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    font-family: MyFont;
+}
+article .noidung img{
+    width: 100%;
+    height: 90%;
+}
+article .noidung .vong {
+    width: 80%;
+    margin: auto;
+    
+}
+.noidung .vong .vongtay .vong1 {
+    width: 100%;
+    height: 90%;
+    margin-left: 1%;
+    margin-top: 1%;
+    justify-content: space-between;
+
+}
+.noidung .vong .vongtay{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    height: auto;
+    margin-bottom: 2%;
+}
+.noidung .vong a h1{
+    border: 2px white solid;
+    border-radius: 10px;
+    width: 15%;
+    text-align: center;
+}
+.noidung .vong a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+.noidung .vong a:hover p{
+    color: red;
+}
+.noidung .vong a:hover img {
+    box-shadow: 2px  2px 5px rgb(46, 12, 12);
+}
+
+
+
+
